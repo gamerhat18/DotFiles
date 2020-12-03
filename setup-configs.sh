@@ -1,3 +1,3 @@
 cp -r .config/* ~/.config/
 cp .* ~/
-cp -r etc/lightdm/* /etc/lightdm/
+cp -r etc/lightdm/themes/* /etc/lightdm/themes/*
