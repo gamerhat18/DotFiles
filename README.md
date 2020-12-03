@@ -1,6 +1,7 @@
-# config-files
-dotfiles and whatnot.
+# DotFiles
 
-fork it, pull it, idc.
+Repo of all the DotFiles that I have spent time on 🎲 
 
-feel free to use, no need for credit.
+Almost everything works on every distribution out there ✌
+
+Feel free to fork, suggest ideas, or ask questions 👀

@@ -1,0 +1,28 @@
+[DownloadDialog Settings]
+HDMI-A-0 Height 1080=506
+HDMI-A-0 Width 1920=700
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/kitty,file:$HOME/anothercutekitty
+Recent URLs[$e]=file:$HOME/
+detailViewIconSize=16
+
+[MainWindow]
+HDMI-A-0 Height 1080=700
+HDMI-A-0 Width 1920=1256
+HDMI-A-0 Window-Maximized 1080x1920=true
+HDMI-A-0 Window-Maximized 600x800=true
+HDMI-A-0 Window-Maximized 768x1024=true
+HDMI-A-0 XPosition=36
+HDMI-A-0 YPosition=63
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB1wAAAP5AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP Window-Maximized 768x1366=true
+
+[Open-with settings]
+CompletionMode=1
+History=uname -sr
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=false
