@@ -9,25 +9,25 @@ The Repo of all the DotFiles that I have spent time on! 🎲
 
 Everything works on almost every distribution out there! ✌
 
-Feel free to fork, suggest ideas, or ask questions 👀
+Feel free to fork, suggest ideas, or ask questions. 👀
 
 ### Gallery
 
 | Mario Desktop with [MKBHD Icons](https://drive.google.com/file/d/1cTxnkSLM-fysvWsMGXm2auIZi9Qvz2Vj/view) |
 | --- |
-| ![Screenshot](https://github.com/gamerhat18/screenshots/1.png) |
+| ![Screenshot](https://cybrdise.com/screenshots/1.png) |
 
-| Just random work) |
+| Just some random work |
 | --- |
-| ![Screenshot](https://github.com/gamerhat18/screenshots/2.png) |
+| ![Screenshot](https://cybrdise.com/screenshots/2.png) |
 
 | Trying out [DT's](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg) [config files](https://gitlab.com/dwt1/dotfiles/) |
 | --- |
-| ![Screenshot](https://github.com/gamerhat18/screenshots/3.png) |
+| ![Screenshot](https://cybrdise.com/screenshots/3.png) |
 
 | My KDE Plasma setup |
 | --- |
-| ![Screenshot](https://github.com/gamerhat18/screenshots/4.png) |
+| ![Screenshot](https://cybrdise.com/screenshots/4.png) |
 
 ## What's Included?
 - [AwesomeWM](https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/awesome) (forked with a few changes)
