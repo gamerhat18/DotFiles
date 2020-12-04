@@ -7,6 +7,7 @@
     background_color = "#170729"
     background_darkness = 0.75
     background_type = transparent
+    cursor_shape = underline
     cursor_color = "#aaaaaa"
     font = MesloLGS NF 14
     foreground_color = "#c4a000"
@@ -27,7 +28,71 @@
     palette = "#403e41:#ff3d71:#a9d12b:#5dd2f4:#fcaf3e:#b38fff:#2397a0:#ffffff:#888a85:#ff3e75:#a9d12b:#5dd2f4:#fcaf3e:#b38fff:#2397a0:#fcfcfa"
     use_system_font = False
   [[testing]]
+    background_darkness = 0.51
+    background_type = transparent
     cursor_color = "#aaaaaa"
+    show_titlebar = False
+    scrollbar_position = hidden
+  [[ayu]]
+    background_color = "#0f1419"
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_color = "#f29718"
+    font = MesloLGS NF 14
+    foreground_color = "#e6e1cf"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 5000
+    palette = "#000000:#ff3333:#b8cc52:#e7c547:#36a3d9:#f07178:#95e6cb:#ffffff:#323232:#ff6565:#eafe84:#fff779:#68d5ff:#ffa3aa:#c7fffd:#ffffff"
+    use_system_font = False
+  [[Belafonte Day]]
+    background_color = "#d5ccba"
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_color = "#45373c"
+    font = MesloLGS NF 14
+    foreground_color = "#45373c"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 5000
+    palette = "#20111b:#be100e:#858162:#eaa549:#426a79:#97522c:#989a9c:#968c83:#5e5252:#be100e:#858162:#eaa549:#426a79:#97522c:#989a9c:#d5ccba"
+    use_system_font = False
+  [[Azu]]
+    background_color = "#09111a"
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_color = "#d2e8fc"
+    font = MesloLGS NF 14
+    foreground_color = "#d9e6f2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 5000
+    palette = "#000000:#ac6d74:#74ac6d:#aca46d:#6d74ac:#a46dac:#6daca4:#e6e6e6:#262626:#d6b8bc:#bcd6b8:#d6d3b8:#b8bcd6:#d3b8d6:#b8d6d3:#ffffff"
+    use_system_font = False
+  [[3024 Night]]
+    background_color = "#090300"
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_color = "#a5a2a2"
+    font = MesloLGS NF 14
+    foreground_color = "#a5a2a2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 5000
+    palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
+    use_system_font = False
+  [[Arthur]]
+    background_color = "#1c1c1c"
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_color = "#e2bbef"
+    font = MesloLGS NF 14
+    foreground_color = "#ddeedd"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 5000
+    palette = "#3d352a:#cd5c5c:#86af80:#e8ae5b:#6495ed:#deb887:#b0c4de:#bbaa99:#554444:#cc5533:#88aa22:#ffa75d:#87ceeb:#996600:#b0c4de:#ddccbb"
+    use_system_font = False
 [layouts]
   [[default]]
     [[[window0]]]
