@@ -5,12 +5,30 @@ Hi, I'm gamerhat and these are my holy dotfiles!
 [![Website](https://img.shields.io/badge/gamerhat-ArchLinux-blue?style=flat-square)](https://Linux.org)
 
 
-The Repo of all the DotFiles that I have spent time on 🎲 
+The Repo of all the DotFiles that I have spent time on! 🎲 
 
-Almost everything works on every distribution out there ✌
+Everything works on almost every distribution out there! ✌
 
 Feel free to fork, suggest ideas, or ask questions 👀
 
+### Gallery
+
+
+| Lockscreen with [PAM Integration](https://github.com/RMTT/lua-pam) |
+| --- |
+| ![Screenshot](https://raw.githubusercontent.com/gamerhat18/screenshots/1.png) |
+
+| Lockscreen with [PAM Integration](https://github.com/RMTT/lua-pam) |
+| --- |
+| ![Screenshot](https://raw.githubusercontent.com/gamerhat18/screenshots/2.png) |
+
+| Lockscreen with [PAM Integration](https://github.com/RMTT/lua-pam) |
+| --- |
+| ![Screenshot](https://raw.githubusercontent.com/gamerhat18/screenshots/3.png) |
+
+| Lockscreen with [PAM Integration](https://github.com/RMTT/lua-pam) |
+| --- |
+| ![Screenshot](https://raw.githubusercontent.com/gamerhat18/screenshots/4.png) |
 
 ## What's Included?
 - [AwesomeWM](https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/awesome) (forked with a few changes)
@@ -18,7 +36,7 @@ Feel free to fork, suggest ideas, or ask questions 👀
 - Zsh
 - [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
 - Bashrc
-- Powerline Shell
+- [Powerline Shell](https://github.com/b-ryan/powerline-shell)
 - [Terminator](https://github.com/gnome-terminator/terminator)
 - KDE Plasma
 
