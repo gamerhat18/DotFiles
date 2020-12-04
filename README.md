@@ -13,7 +13,6 @@ Feel free to fork, suggest ideas, or ask questions 👀
 
 ### Gallery
 
-
 | Mario Desktop with [MKBHD Icons](https://drive.google.com/file/d/1cTxnkSLM-fysvWsMGXm2auIZi9Qvz2Vj/view) |
 | --- |
 | ![Screenshot](https://github.com/gamerhat18/screenshots/1.png) |
