@@ -14,21 +14,21 @@ Feel free to fork, suggest ideas, or ask questions 👀
 ### Gallery
 
 
-| Lockscreen with [PAM Integration](https://github.com/RMTT/lua-pam) |
+| Mario Desktop with [MKBHD Icons](https://drive.google.com/file/d/1cTxnkSLM-fysvWsMGXm2auIZi9Qvz2Vj/view) |
 | --- |
-| ![Screenshot](https://raw.githubusercontent.com/gamerhat18/screenshots/1.png) |
+| ![Screenshot](https://github.com/gamerhat18/screenshots/1.png) |
 
-| Lockscreen with [PAM Integration](https://github.com/RMTT/lua-pam) |
+| Just random work) |
 | --- |
-| ![Screenshot](https://raw.githubusercontent.com/gamerhat18/screenshots/2.png) |
+| ![Screenshot](https://github.com/gamerhat18/screenshots/2.png) |
 
-| Lockscreen with [PAM Integration](https://github.com/RMTT/lua-pam) |
+| Trying out [DT's](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg) [config files](https://gitlab.com/dwt1/dotfiles/) |
 | --- |
-| ![Screenshot](https://raw.githubusercontent.com/gamerhat18/screenshots/3.png) |
+| ![Screenshot](https://github.com/gamerhat18/screenshots/3.png) |
 
-| Lockscreen with [PAM Integration](https://github.com/RMTT/lua-pam) |
+| My KDE Plasma setup |
 | --- |
-| ![Screenshot](https://raw.githubusercontent.com/gamerhat18/screenshots/4.png) |
+| ![Screenshot](https://github.com/gamerhat18/screenshots/4.png) |
 
 ## What's Included?
 - [AwesomeWM](https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/awesome) (forked with a few changes)
