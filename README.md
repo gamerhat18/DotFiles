@@ -11,6 +11,16 @@ Everything works on almost every distribution out there! ✌
 
 Feel free to fork, suggest ideas, or ask questions. 👀
 
+## What's Included?
+- [AwesomeWM](https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/awesome) (forked with a few changes)
+- [Bpytop](https://github.com/aristocratos/bpytop)
+- Zsh
+- [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
+- Bashrc
+- [Powerline Shell](https://github.com/b-ryan/powerline-shell)
+- [Terminator](https://github.com/gnome-terminator/terminator)
+- KDE Plasma
+
 ### Gallery
 
 | Mario Desktop with [MKBHD Icons](https://drive.google.com/file/d/1cTxnkSLM-fysvWsMGXm2auIZi9Qvz2Vj/view) |
@@ -21,7 +31,7 @@ Feel free to fork, suggest ideas, or ask questions. 👀
 | --- |
 | ![Screenshot](https://cybrdise.com/screenshots/2.png) |
 
-| Trying out [DT's](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg) [config files](https://gitlab.com/dwt1/dotfiles/) |
+| Trying out [DT's](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg) [config files](https://gitlab.com/dwt1>
 | --- |
 | ![Screenshot](https://cybrdise.com/screenshots/3.png) |
 
@@ -29,16 +39,6 @@ Feel free to fork, suggest ideas, or ask questions. 👀
 | --- |
 | ![Screenshot](https://cybrdise.com/screenshots/5.png) |
 
-
-## What's Included?
-- [AwesomeWM](https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/awesome) (forked with a few changes)
-- [Bpytop](https://github.com/aristocratos/bpytop)
-- Zsh
-- [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
-- Bashrc
-- [Powerline Shell](https://github.com/b-ryan/powerline-shell)
-- [Terminator](https://github.com/gnome-terminator/terminator)
-- KDE Plasma
 
 ## More
 - 🔭 I’m currently working on getting this to work on the RaspberryPi OS
