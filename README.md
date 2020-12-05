@@ -25,9 +25,10 @@ Feel free to fork, suggest ideas, or ask questions. 👀
 | --- |
 | ![Screenshot](https://cybrdise.com/screenshots/3.png) |
 
-| My KDE Plasma setup |
+| Bpytop Running in Plasma Shell |
 | --- |
-| ![Screenshot](https://cybrdise.com/screenshots/4.png) |
+| ![Screenshot](https://cybrdise.com/screenshots/5.png) |
+
 
 ## What's Included?
 - [AwesomeWM](https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/awesome) (forked with a few changes)
