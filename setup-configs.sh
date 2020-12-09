@@ -23,4 +23,4 @@ cp .profile ~/
 cp .fac* ~/
 cp .p10k.zsh ~/
 
-cp -r ./etc/lightdm/* /etc/lightdm/
+sudo cp -r ./etc/lightdm/* /etc/lightdm/
