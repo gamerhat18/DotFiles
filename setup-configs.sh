@@ -17,5 +17,10 @@ toilet -kf circle -F gay $hashes
 
 
 cp -r .config/* ~/.config/
-cp .* ~/
-cp -r etc/lightdm/themes/* /etc/lightdm/themes/*
+cp .bashrc ~/
+cp .zshrc ~/
+cp .profile ~/
+cp .fac* ~/
+cp .p10k.zsh ~/
+
+cp -r ./etc/lightdm/* /etc/lightdm/
