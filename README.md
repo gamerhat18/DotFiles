@@ -5,7 +5,7 @@ Hi, I'm gamerhat and these are my holy dotfiles!
 [![Website](https://img.shields.io/badge/gamerhat-ArchLinux-blue?style=flat-square)](https://Linux.org)
 
 ```bash
-curl -sSL https://git.io/ | bash
+curl -sSL https://git.io/JtCCU | bash
 ```
 
 The Repo of all the DotFiles that I have spent time on! 🎲 
