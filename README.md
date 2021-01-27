@@ -4,6 +4,9 @@ Hi, I'm gamerhat and these are my holy dotfiles!
 
 [![Website](https://img.shields.io/badge/gamerhat-ArchLinux-blue?style=flat-square)](https://Linux.org)
 
+```bash
+curl -sSL https://git.io/ | bash
+```
 
 The Repo of all the DotFiles that I have spent time on! 🎲 
 
@@ -31,7 +34,7 @@ Feel free to fork, suggest ideas, or ask questions. 👀
 | --- |
 | ![Screenshot](https://cybrdise.com/screenshots/2.png) |
 
-| Trying out [DT's](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg) [config files](https://gitlab.com/dwt1>
+| Trying out [DT's](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg) [config files](https://gitlab.com/dwt1)
 | --- |
 | ![Screenshot](https://cybrdise.com/screenshots/3.png) |
 
