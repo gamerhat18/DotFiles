@@ -5,7 +5,7 @@
 [profiles]
   [[default]]
     background_color = "#170729"
-    background_darkness = 0.75
+    background_darkness = 0.9
     background_type = transparent
     cursor_shape = underline
     cursor_color = "#aaaaaa"
