@@ -4,6 +4,9 @@ alias ls="exa -al --colour=always --group-directories-first"
 alias list="/bin/ls -lAh"
 alias diskuse="du -hxd 1 . 2>/dev/null | sort -hr"
 
+# tldr; help/manual
+alias help='tldr'
+
 # navigation
 alias ..='cd ..' 
 alias ...='cd ../..'
@@ -32,6 +35,7 @@ alias rm='rm -i'
 # adding flags
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
+alias dd='dd status=progress'             # show progress when using dd
 
 ## get top process eating cpu ##
 alias pscpu='ps auxf | sort -nr -k 3'
@@ -78,3 +82,11 @@ alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/mas
 
 # edit this aliasrc
 alias aliasrc='nano ~/.config/.aliasrc'
+
+# replace sudo for doas because of vulnerability
+alias sudo='doas'
+alias editdoas='doas -u root nano /usr/local/etc/doas.conf'
+
+# network and DNS
+alias dnsedit='sudo nano /etc/hosts'
+alias dnsflush='sudo /etc/init.d/dns-clean start'
