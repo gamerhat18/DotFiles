@@ -1,0 +1,3 @@
+ln -s ~/.DotFiles/.SpaceVim ~/.config/nvim
+ln -s ~/.DotFiles/.SpaceVim.d ~/.SpaceVim.d
+ln -s ~/.DotFiles/.SpaceVim ~/.vim
