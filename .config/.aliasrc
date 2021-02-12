@@ -62,7 +62,7 @@ alias youtube="youtube-dl "
 alias youtube-audio="youtube-dl --extract-audio --audio-format mp3 "
 
 # spark aliases
-alias clear='clear; echo; echo; seq 1 (tput cols) | sort -R | spark | lolcat; echo; echo'
+#alias clear='clear; echo; echo; seq 1 (tput cols) | sort -R | spark | lolcat; echo; echo'
 
 # vim and emacs
 alias vim='nvim'
