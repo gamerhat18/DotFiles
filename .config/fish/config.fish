@@ -186,6 +186,5 @@ end
 # my .aliasrc file for all the aliases
 [ -f "$HOME/.config/.aliasrc" ] && source "$HOME/.config/.aliasrc"
 
-
-PATH=$PATH:/home/$USER/.local/bin/
-PATH=$PATH:/home/$USER/.emacs.d/bin/
+set PATH $PATH:/home/$USER/.local/bin/
+set PATH $PATH:/home/$USER/.emacs.d/bin/
