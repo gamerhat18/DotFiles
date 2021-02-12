@@ -162,3 +162,4 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 
 PATH=$PATH:/home/$USER/.local/bin/
+PATH=$PATH:/home/$USER/.emacs.d/bin/

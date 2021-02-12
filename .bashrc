@@ -135,3 +135,4 @@ fi
 
 
 PATH=$PATH:/home/$USER/.local/bin/
+PATH=$PATH:/home/$USER/.emacs.d/bin/
