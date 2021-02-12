@@ -1,11 +1,7 @@
 # listing
 alias l="ls -lah"
 alias ls="exa -al --colour=always --group-directories-first"
-alias list="/bin/ls -lAh"
-alias diskuse="du -hxd 1 . 2>/dev/null | sort -hr"
-
-# tldr; help/manual
-alias help='tldr'
+alias list="exa -al --colour=always --group-directories-first"
 
 # navigation
 alias ..='cd ..' 
@@ -15,11 +11,8 @@ alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
 # package manager
-alias install='sudo aptitude install'
-alias remove='sudo aptitude remove'
-alias purge='sudo aptitude purge'
 alias full-update='sudo aptitude full-upgrade'                 # update only standard pkgs
-alias check-update="sudo apt update"              # update standard pkg repositories
+alias check-update="sudo apt update"              # update standard pkgs and AUR pkgs
 alias cleanup='sudo apt autoremove && sudo aptitude autoclean' # remove orphaned packages
 
 # Colorize grep output (good for log files)
@@ -35,14 +28,13 @@ alias rm='rm -i'
 # adding flags
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
-alias dd='dd status=progress'             # show progress when using dd
 
 ## get top process eating cpu ##
 alias pscpu='ps auxf | sort -nr -k 3'
 alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
 
 # git
-alias submit='git add -A && git commit -m "☕ Improved" && git push origin'
+alias submit='git add . && git commit -m "☕ Improved" && git push origin'
 alias addup='git add -u'
 alias addall='git add .'
 alias branch='git branch'
@@ -69,6 +61,22 @@ alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 alias youtube="youtube-dl "
 alias youtube-audio="youtube-dl --extract-audio --audio-format mp3 "
 
+# spark aliases
+alias clear='clear; echo; echo; seq 1 (tput cols) | sort -R | spark | lolcat; echo; echo'
+
+# vim and emacs
+alias vim='nvim'
+alias em='/usr/bin/emacs -nw'
+alias emacs="emacsclient -c -a 'emacs'"
+alias doomsync="~/.emacs.d/bin/doom sync"
+alias doomdoctor="~/.emacs.d/bin/doom doctor"
+alias doomupgrade="~/.emacs.d/bin/doom upgrade"
+alias doompurge="~/.emacs.d/bin/doom purge"
+
+# broot
+alias br='broot -dhp'
+alias bs='broot --sizes'
+
 # switch between shells
 alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
@@ -80,13 +88,3 @@ alias starwars="nc termbin.com 9999"
 # the terminal rickroll
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
 
-# edit this aliasrc
-alias aliasrc='nano ~/.config/.aliasrc'
-
-# replace sudo for doas because of vulnerability
-alias sudo='doas'
-alias editdoas='doas -u root nano /usr/local/etc/doas.conf'
-
-# network and DNS
-alias dnsedit='sudo nano /etc/hosts'
-alias dnsflush='sudo /etc/init.d/dns-clean start'

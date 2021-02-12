@@ -1,4 +1,12 @@
+### SETUP ALL LINKS
+
+## Vim and Nvim and SpaceVim
 ln -s ~/.DotFiles/.SpaceVim ~/.config/nvim
 ln -s ~/.DotFiles/.SpaceVim.d ~/.SpaceVim.d
 ln -s ~/.DotFiles/.SpaceVim ~/.vim
-ln -s /.DotFiles/.bashrc ~/.bashrc
+
+## Shells (.bashrc .zshrc .fishrc .aliasrc)
+ln -s ~/.DotFiles/.bashrc ~/.bashrc
+ln -s ~/.DotFiles/.zshrc ~/.zshrc
+ln -s ~/.DotFiles/.config/fish ~/.config/fish
+ln -s ~/.DotFiles/.config/.aliasrc ~/.config/.aliasrc
