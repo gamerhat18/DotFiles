@@ -1,7 +1,8 @@
 # listing
-alias l="ls -lah"
+alias l="/bin/ls -lah"
 alias ls="exa -al --colour=always --group-directories-first"
 alias list="exa -al --colour=always --group-directories-first"
+alias diskspace='du -hxd 1 . 2>/dev/null | sort -hr'
 
 # navigation
 alias ..='cd ..' 
