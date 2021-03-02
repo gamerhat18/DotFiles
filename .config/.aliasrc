@@ -90,5 +90,4 @@ alias starwars="nc termbin.com 9999"
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
 
 alias aliasrc='vim ~/.config/.aliasrc'
-alias fixeverythingohcmon='sudo mv -rf /etc/hosts.bak /etc/hosts && sudo /etc/init.d/dns-clean start'
-alias fixeverythingohcmon='sudo mv -rf /etc/hosts.bak /etc/hosts && sudo /etc/init.d/dns-clean start'
+alias updategrub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
