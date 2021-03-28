@@ -11,10 +11,30 @@ alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
+
 # package manager
-alias full-update='sudo aptitude full-upgrade'                 # update only standard pkgs
-alias check-update="sudo apt update"              # update standard pkgs and AUR pkgs
-alias cleanup='sudo apt autoremove && sudo aptitude autoclean' # remove orphaned packages
+#
+if [[ -f /usr/bin/apt ]]; then
+
+  alias distrostatus='echo "Debian"'
+  alias full-update='sudo aptitude full-upgrade'                 # update all pkgs
+  alias check-update="sudo apt update"                           # update repositories
+  alias cleanup='sudo apt autoremove && sudo aptitude autoclean' # remove orphaned packages
+
+elif [[ -f /usr/bin/pacman ]]; then
+
+  alias distrostatus='echo "Arch"'
+  alias upgrade='sudo pacman -Syyuu'                 # update all pkgs
+  alias purge="sudo pacman -Rns --nosave"                           # update repositories
+  alias cleanup='sudo apt autoremove && sudo aptitude autoclean' # remove orphaned packages
+
+elif [[ -f /usr/bin/dnf ]]; then
+
+  alias distrostatus='echo "Fedora"'
+
+else
+  alias distrostatus='echo "UNKNOWN DISTRO"'
+fi
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
