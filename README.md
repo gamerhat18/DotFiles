@@ -28,19 +28,19 @@ Feel free to fork, suggest ideas, or ask questions. 👀
 
 | Mario Desktop with [MKBHD Icons](https://drive.google.com/file/d/1cTxnkSLM-fysvWsMGXm2auIZi9Qvz2Vj/view) |
 | --- |
-| ![Screenshot](https://cybrdise.com/screenshots/1.png) |
+| ![Screenshot](screenshots/1.png) |
 
 | Just some random work |
 | --- |
-| ![Screenshot](https://cybrdise.com/screenshots/2.png) |
+| ![Screenshot](screenshots/2.png) |
 
 | Trying out [DT's](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg) [config files](https://gitlab.com/dwt1)
 | --- |
-| ![Screenshot](https://cybrdise.com/screenshots/3.png) |
+| ![Screenshot](screenshots/3.png) |
 
 | Bpytop Running in Plasma Shell |
 | --- |
-| ![Screenshot](https://cybrdise.com/screenshots/5.png) |
+| ![Screenshot](screenshots/5.png) |
 
 
 ## More
