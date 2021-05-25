@@ -13,16 +13,18 @@ alias .5='cd ../../../../..'
 
 
 # package manager
-#
+
 if [[ -f /usr/bin/apt ]]; then
 
   alias distrostatus='echo "Debian"'
+  alias install='sudo apt install -y'                            # installs packages
   alias full-update='sudo aptitude full-upgrade'                 # update all pkgs
   alias check-update="sudo apt update"                           # update repositories
   alias cleanup='sudo apt autoremove && sudo aptitude autoclean' # remove orphaned packages
 
 elif [[ -f /usr/bin/pacman ]]; then
 
+  alias install='sudo apt install'                               # installs packages
   alias distrostatus='echo "Arch"'
   alias upgrade='sudo pacman -Syyuu'                 # update all pkgs
   alias purge="sudo pacman -Rns --nosave"                           # update repositories
@@ -30,6 +32,7 @@ elif [[ -f /usr/bin/pacman ]]; then
 
 elif [[ -f /usr/bin/dnf ]]; then
 
+  alias install='sudo dnf install -y'                               # installs packages
   alias distrostatus='echo "Fedora"'
 
 else
@@ -55,7 +58,26 @@ alias pscpu='ps auxf | sort -nr -k 3'
 alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
 
 # git
-alias submit='git add . && git commit -m "☕ Improved" && git push origin'
+# alias submit='git add . && git commit -m "☕ Improved" && git push origin'
+
+submit() {
+  if [[ $1 == '' ]]; then
+    echo ''
+    read -P ":: DO YOU REALLY WANNA SUBMIT WITHOUT COMMIT MESSAGE? [y/N] :" uservar
+    echo ''
+
+    if [[ $uservar == 'Y' || $uservar == 'y' ]]; then
+      git add . && git commit -m 'No commit info was provided' && git push
+    else
+      echo 'lol aight'
+    fi
+
+  else
+    git add . && git commit -m $1 && git push
+  fi
+}
+
+alias add='git add'
 alias addup='git add -u'
 alias addall='git add .'
 alias branch='git branch'
@@ -81,6 +103,9 @@ alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 alias youtube="youtube-dl "
 alias youtube-audio="youtube-dl --extract-audio --audio-format mp3 "
+
+# angular
+alias produce-clean="ng build --prod --aot --vendor-chunk --common-chunk --delete-output-path --build-optimizer"
 
 # spark aliases
 #alias clear='clear; echo; echo; seq 1 (tput cols) | sort -R | spark | lolcat; echo; echo'
@@ -111,3 +136,5 @@ alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/mas
 
 alias aliasrc='vim ~/.config/.aliasrc'
 alias updategrub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
+alias phonee='adb connect 192.168.43.1:5555 && scrcpy -m 960'
